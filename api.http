@@ -1,0 +1,29 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "Victor Souza",
+    "email": "victorsouza@gmail.com",
+    "referrer": "eb276436-232a-4428-ab62-7f7abb2a0804"
+   
+}
+
+###
+
+GET http://localhost:3333/invites/""
+
+###
+
+
+GET http://localhost:3333/subscribers/"eb276436-232a-4428-ab62-7f7abb2a0804"/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/"eb276436-232a-4428-ab62-7f7abb2a0804"/ranking/count
+
+
+###
+GET http://localhost:3333/subscribers/"eb276436-232a-4428-ab62-7f7abb2a0804"/ranking/position
+
+###
+GET http://localhost:3333/ranking
+
